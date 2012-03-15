@@ -3,7 +3,7 @@
   "name": "hook.io-sparql",
   "description": "SparQL hook queries",
   "keywords" : [ "hook", "hook.io", "sparql" ],
-  "version": "0.0.2",
+  "version": "0.0.3",
   "bugs" : { "url" : "http://github.com/balkian/hook.io-sparql/issues" },
   "repository": {
     "type": "git",

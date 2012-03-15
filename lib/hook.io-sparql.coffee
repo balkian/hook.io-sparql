@@ -31,7 +31,7 @@ class SPARQLHook extends Hook
     query: (query, cb) ->
         console.log ">>Going to query"
         @client.rows  query, (err, res) ->
-                cb res
+                cb? res
 
     addPreffix: (key,url) ->
         @client.prefix_map[key] = url
