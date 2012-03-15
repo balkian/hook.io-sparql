@@ -33,7 +33,7 @@ class SPARQLHook extends Hook
         @client.rows  query, (err, res) ->
                 cb? res
 
-    addPreffix: (key,url) ->
+    addPrefix: (key,url) ->
         @client.prefix_map[key] = url
 
 exports.SPARQLHook = SPARQLHook
