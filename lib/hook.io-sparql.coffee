@@ -22,7 +22,7 @@ class SPARQLHook extends Hook
 
         self.on 'hook::ready', ->
             self.on '*::query', (data,fn) ->
-                @queryDBPedia data , (res) ->
+                @query data , (res) ->
                     console.log res
                     fn res
         console.log "Created"
