@@ -6,7 +6,7 @@ Description
 ---------------------
 This module is part of the Web4.0 project.
 
-So far, it performs basic queries to dbpedia, but the same code could be use to query any other sparql endpoint.
+You can use it to query any sparql endpoint. So far, dbpedia and sindice.com have been tested.
 
 Dependencies
 --------------------
