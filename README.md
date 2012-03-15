@@ -11,6 +11,7 @@ So far, it performs basic queries to dbpedia, but the same code could be use to 
 Dependencies
 --------------------
 To run this project, you will need to install the following dependencies through npm:
-* coffee-script
-* sparql
-* hook.io
+
+- coffee-script
+- sparql
+- hook.io
